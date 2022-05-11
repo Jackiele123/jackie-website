@@ -21,7 +21,7 @@ function Home2() {
             <p className="home-about-body">
              I am in love with Engineering and will always have projects in the works 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in languages like
               <i>
                 <b className="purple"> C++, Javascript and Python. </b>
               </i>
