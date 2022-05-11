@@ -5,9 +5,9 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.jpeg";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import robotics from "../../Assets/Projects/robotics.jpg";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import stockpredictor from "../../Assets/Projects/stockpredictor.png";
 
 function Projects() {
   return (
@@ -23,21 +23,21 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={robotics}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Vex Robotics Competition"
+              description="My code from my final year competing in the Vex Robotics Competition as team 4549A. The code includes many advanced functions such as object tracking using Vision sensors and Absolute Position Tracking using encoders and Odometry "
+              link="https://github.com/Jackiele123/4549A"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={stockpredictor}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Stock Price Predictor"
+              description="My Stock Price Predictor that's coded in Python using a Linear Regression Machine Learning algorithm that use 80/20 splits to test and improve its performance. It can currently predict stock price with up to 82% accuracy."
+              link="https://github.com/Jackiele123/Stock-Predictor"
             />
           </Col>
 
