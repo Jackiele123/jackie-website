@@ -3,7 +3,7 @@
   <a href="https://jackiele.ca/" target="_blank">jackiele.ca</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img.png3" />
+  <img alt="Demo" src="./Images/readme-img3.png" />
 </div>
 
 <br/>
