@@ -1,33 +1,22 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="http://soumya-jit.tech/" target="_blank">soumyajit.tech</a>
+  Portfolio Website<br/>
+  <a href="https://jackiele.ca/" target="_blank">jackiele.ca</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./Images/readme-img.png" />
 </div>
 
 <br/>
 
-<center>
+My personal portfolio <a href="https://jackiele.ca/" target="_blank">jackiele.ca</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
-
-</center>
-
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
-
-
+This project was built using these technologies.
 
 - React.js
 - Node.js
 - Express.js
 - CSS3
 - VsCode
-- Vercel
 
 ## Features
 
