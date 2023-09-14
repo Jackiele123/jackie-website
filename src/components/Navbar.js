@@ -51,6 +51,12 @@ function NavBar() {
           <span></span>
           <span></span>
         </Navbar.Toggle>
+        <Nav.Item className="ms-auto">
+              <Button
+                href="https://project.jackiele.ca"
+              >Checkout my new website!
+              </Button>
+            </Nav.Item>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>

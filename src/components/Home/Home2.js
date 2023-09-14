@@ -23,12 +23,12 @@ function Home2() {
               <br />
               <br />I am fluent in languages like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> C++, C#, Javascript and Python. </b>
               </i>
               <br />
               <br />I know how to use softwares like
               <i>
-                <b className="purple"> Solidworks, Inventor, Autocad, MS Office. </b>
+                <b className="purple"> Solidworks, Inventor, Autocad. </b>
               </i>
               <br />
               <br />
@@ -66,38 +66,6 @@ function Home2() {
                   <AiFillGithub />
                 </a>
                 </li>
-            {/*<li className="social-icons">
-              <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-  
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/jackie-le-339113220/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
-            */}
              <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/jackie-le-339113220/"

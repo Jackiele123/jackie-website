@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Jackie Le </span>
             from <span className="purple"> Surrey, BC, Canada.</span>
-            <br />I am a first year in Mechatronics Engineering at    
+            <br />I am a 2B Mechatronics Engineering student at    
             the University of Waterloo.
             <br />
             <br />
@@ -21,10 +21,10 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Making podcasts
+              <ImPointRight /> Throwing Frisbees
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Hiking
             </li>
           </ul>
 

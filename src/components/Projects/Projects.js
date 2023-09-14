@@ -5,6 +5,9 @@ import Particle from "../Particle";
 import cube from "../../Assets/Projects/cube.png";
 import robotics from "../../Assets/Projects/robotics.jpg";
 import stockpredictor from "../../Assets/Projects/stockpredictor.png";
+import signlanguaguetranslator from "../../Assets/Projects/signlanguaguetranslator.png";
+import mobileapp from "../../Assets/Projects/mobileapp.png";
+import robotarm from "../../Assets/Projects/robotarm.png";
 
 function Projects() {
   return (
@@ -17,6 +20,37 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={robotarm}
+              isBlog={false}
+              title="6DOF Robotic Arm"
+              description="I've meticulously designed a robotic arm from the ground up using SolidWorks, encapsulating both creativity and engineering precision. To showcase this endeavor, I've crafted a 3D website, serving as a vivid portfolio of my design journey and technical prowess."
+              link="https://github.com/Jackiele123/My3DWebsite"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={signlanguaguetranslator}
+              isBlog={false}
+              title="Sign Language Translator"
+              description="I've developed a sign language translator powered by machine learning, bridging the communication gap. By collecting extensive data, I trained a model capable of interpreting live video feeds, transforming gestures into real-time textual translations."
+              link="https://github.com/Jackiele123/Sign-Language-Translator"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mobileapp}
+              isBlog={false}
+              title="Measuring Device"
+              description="Leveraging a wheel connected to a potentiometer, I've developed a unique measuring device to capture accurate distances. To enhance user experience, I've also created a mobile app that not only records these measurements but provides a clear overview of how the system functions."
+              link="https://github.com/Jackiele123/Distance_Measurement_App"
+            />
+          </Col>
+        </Row>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
