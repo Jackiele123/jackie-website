@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://jackiele.ca/" target="_blank">jackiele.ca</a>
+  <a href="https://jackiele.ca/" target="_blank" aria-label="A link to my website">jackiele.ca</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img3.png" />
