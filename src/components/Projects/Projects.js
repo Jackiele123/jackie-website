@@ -27,7 +27,16 @@ function Projects() {
               isBlog={false}
               title="6DOF Robotic Arm"
               description="I've meticulously designed a robotic arm from the ground up using SolidWorks, encapsulating both creativity and engineering precision. To showcase this endeavor, I've crafted a 3D website, serving as a vivid portfolio of my design journey and technical prowess."
-              link="https://github.com/Jackiele123/My3DWebsite"
+              buttons={[
+                {
+                  name: "View Code",
+                  url: "https://github.com/Jackiele123/My3DWebsite",
+                }, 
+                {
+                  name: "View Project",
+                  url: "https://project.jackiele.ca/",
+                }
+              ]}
             />
           </Col>
 
@@ -37,7 +46,12 @@ function Projects() {
               isBlog={false}
               title="Sign Language Translator"
               description="I've developed a sign language translator powered by machine learning, bridging the communication gap. By collecting extensive data, I trained a model capable of interpreting live video feeds, transforming gestures into real-time textual translations."
-              link="https://github.com/Jackiele123/Sign-Language-Translator"
+              buttons={[
+                {
+                  name: "View Code",
+                  url: "https://github.com/Jackiele123/Sign-Language-Translator"
+                }
+              ]}
             />
           </Col>
 
@@ -47,7 +61,12 @@ function Projects() {
               isBlog={false}
               title="Measuring Device"
               description="Leveraging a wheel connected to a potentiometer, I've developed a unique measuring device to capture accurate distances. To enhance user experience, I've also created a mobile app that not only records these measurements but provides a clear overview of how the system functions."
-              link="https://github.com/Jackiele123/Distance_Measurement_App"
+              buttons={[
+                {
+                  name: "View Code",
+                  url: "https://github.com/Jackiele123/Distance_Measurement_App"
+                }
+              ]}
             />
           </Col>
         </Row>
@@ -58,7 +77,12 @@ function Projects() {
               isBlog={false}
               title="Vex Robotics Competition"
               description="My code from my final year competing in the Vex Robotics Competition as team 4549A. The code includes many advanced functions such as object tracking using Vision sensors and Absolute Position Tracking using encoders and Odometry "
-              link="https://github.com/Jackiele123/4549A"
+              buttons={[
+                {
+                  name: "View Code",
+                  url: "https://github.com/Jackiele123/4549A"
+                }
+              ]}
             />
           </Col>
 
@@ -68,7 +92,12 @@ function Projects() {
               isBlog={false}
               title="Stock Price Predictor"
               description="My Stock Price Predictor that's coded in Python using a Linear Regression Machine Learning algorithm that use 80/20 splits to test and improve its performance. It can currently predict stock price with up to 82% accuracy."
-              link="https://github.com/Jackiele123/Stock-Predictor"
+              buttons={[
+                {
+                  name: "View Code",
+                  url: "https://github.com/Jackiele123/Stock-Predictor"
+                }
+              ]}
             />
           </Col>
 
@@ -78,7 +107,12 @@ function Projects() {
               isBlog={false}
               title="Self Balancing Cube"
               description="Designed and Programmed a cube that balances itself using 3 reaction wheels that utilize encoders and IMU sensor info to create moment of inertias that counteract the forces that are acting on it."
-              link="https://github.com/Jackiele123/BalancingCube"
+              buttons={[
+                {
+                  name: "View Code",
+                  url: "https://github.com/Jackiele123/BalancingCube"
+                }
+              ]}
             />
           </Col>
         </Row>
