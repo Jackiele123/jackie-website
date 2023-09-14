@@ -12,10 +12,12 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "center" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.link} target="_blank">
-          <BiLinkExternal /> &nbsp;
-          {props.isBlog ? "View Blog" : "View Project"}
-        </Button>
+        {props.buttons.map(({ name = props.isBlog ? "View Blog" : "View Project", url = "" }) => (
+          <Button variant="primary" href={url} target="_blank" className="mx-1">
+            <BiLinkExternal /> &nbsp;
+            {name}
+          </Button>
+        ))}
       </Card.Body>
     </Card>
   );
