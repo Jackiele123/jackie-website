@@ -35,6 +35,10 @@ function Projects() {
                 {
                   name: "View Project",
                   url: "https://project.jackiele.ca/",
+                },
+                {
+                  name: "View Research Paper",
+                  url: "https://github.com/Jackiele123/MLP_IK_Algorithm/blob/main/MLPForIKof6DOFRoboticArm.pdf",
                 }
               ]}
             />

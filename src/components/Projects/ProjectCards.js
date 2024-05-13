@@ -13,7 +13,7 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
         {props.buttons.map(({ name = props.isBlog ? "View Blog" : "View Project", url = "" }) => (
-          <Button variant="primary" href={url} target="_blank" className="mx-1">
+          <Button variant="primary" href={url} target="_blank" className="m-1">
             <BiLinkExternal /> &nbsp;
             {name}
           </Button>
