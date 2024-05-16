@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Jackie Le </span>
             from <span className="purple"> Surrey, BC, Canada.</span>
-            <br />I am a 2B Mechatronics Engineering student at    
+            <br />I am a 3A Mechatronics Engineering student at    
             the University of Waterloo.
             <br />
             <br />
